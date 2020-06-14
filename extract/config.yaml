@@ -1,0 +1,13 @@
+news_sites:
+  larepublica:
+    url: https://www.larepublica.co/
+    queries:
+      homepage_article_links: '.headline a'
+      article_body: '.articleWrapper p'
+      article_title: 'h1.headline'
+  elpais:
+    url: https://www.elpais.com
+    queries:
+      homepage_article_links: '.b_chain a'
+      article_body: '.a_b p'
+      article_title: '.a_t'
